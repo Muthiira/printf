@@ -1,10 +1,10 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-#include <limits.h>
+
 #include <stdarg.h>
 #include <stdlib.h>
-#include <unistd.h>
+
 
 /**
  * struct flags - struct containing flags to "turn on"

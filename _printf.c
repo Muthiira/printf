@@ -1,7 +1,4 @@
 #include "main.h"
-#include <stdio.h>
-#include <stdlib.h>
-#include <unistd.h>
 
 /**
  * _printf - produces output according to format
@@ -10,8 +7,6 @@
  * (excluding the null byte used to end output to strings)
  * check_for_specifiers - checks if there is a valid format specifier
  * @format: possible format specifier
- *
- * Return: pointer to valid function or NULL
  */
 int _printf(const char *format, ...)
 {
